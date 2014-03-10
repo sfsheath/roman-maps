@@ -31,83 +31,102 @@
 		</Pair>
 	</StyleMap>
 	<Folder>
-		<name>Slab Positions from Stanford Map</name>
+		<name>Severan Marble Plan</name>
 		<open>1</open>
-		<Placemark>
-			<name>FUR Stanford Slab VII-10</name>
-			<description><![CDATA[<a href="http://formaurbis.stanford.edu/slab.php?slab=48">FUR Stanford Slab VII-10</a>]]></description>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							12.48709681563098,41.89372556944091,0 12.48559945606477,41.89217627954628,0 12.49027022480534,41.88971296327762,0 12.49175738428918,41.8912750737919,0 12.48709681563098,41.89372556944091,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>FUR VIII-1</name>
-			<description><![CDATA[<a href="http://formaurbis.stanford.edu/slab.php?slab=30">Stanford #: VIII-1</a>]]></description>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							12.50443017591483,41.90448957636931,0 12.50071657235659,41.9005719202,0 12.50306134607559,41.89935842386995,0 12.50682687749695,41.90327648125313,0 12.50443017591483,41.90448957636931,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>FUR VIII-4</name>
-			<description><![CDATA[<a href="http://formaurbis.stanford.edu/slab.php?slab=33">Stanford # VIII-4</a>]]></description>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							12.49363740601808,41.89316538689604,0 12.48998754320471,41.88937085631331,0 12.4923443605437,41.88812300048416,0 12.49596709331193,41.8919279906271,0 12.49363740601808,41.89316538689604,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>FUR VIII-5</name>
-			<description><![CDATA[<a href="http://formaurbis.stanford.edu/slab.php?slab=34">Stanford #: VIII-5</a>]]></description>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							12.49002995629268,41.88930644092461,0 12.48640024674008,41.88554561346162,0 12.48875734899154,41.88437112513435,0 12.49233752261704,41.88809418327822,0 12.49002995629268,41.88930644092461,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>FUR Stanford Slab V-13</name>
-			<description><![CDATA[<a href="http://formaurbis.stanford.edu/slab.php?slab=82">FUR Stanford Slab V-13</a>]]></description>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							12.48036123940244,41.88995324887461,0 12.47563191877744,41.89246159146317,0 12.47427979525385,41.89106209807154,0 12.47905599278261,41.88852744688177,0 12.48036123940244,41.88995324887461,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
+		<GroundOverlay>
+			<name>Stanford Guide to Severan Marble Plan Map</name>
+			<color>80ffffff</color>
+			<Icon>
+				<href>http://formaurbis.stanford.edu/docs/slabmap.gif</href>
+				<viewBoundScale>0.75</viewBoundScale>
+			</Icon>
+			<LatLonBox>
+				<north>41.91108138890231</north>
+				<south>41.87738096970094</south>
+				<east>12.50937231352855</east>
+				<west>12.45450333043158</west>
+				<rotation>-130.3542969134768</rotation>
+			</LatLonBox>
+		</GroundOverlay>
+		<Folder>
+			<name>Slab Positions from Stanford Map</name>
+			<open>1</open>
+			<Placemark>
+				<name>FUR Stanford Slab VII-10</name>
+				<description><![CDATA[<a href="http://formaurbis.stanford.edu/slab.php?slab=48">FUR Stanford Slab VII-10</a>]]></description>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								12.48709681563098,41.89372556944091,0 12.48559945606477,41.89217627954628,0 12.49027022480534,41.88971296327762,0 12.49175738428918,41.8912750737919,0 12.48709681563098,41.89372556944091,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>FUR VIII-1</name>
+				<description><![CDATA[<a href="http://formaurbis.stanford.edu/slab.php?slab=30">Stanford #: VIII-1</a>]]></description>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								12.50443017591483,41.90448957636931,0 12.50071657235659,41.9005719202,0 12.50306134607559,41.89935842386995,0 12.50682687749695,41.90327648125313,0 12.50443017591483,41.90448957636931,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>FUR VIII-4</name>
+				<description><![CDATA[<a href="http://formaurbis.stanford.edu/slab.php?slab=33">Stanford # VIII-4</a>]]></description>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								12.49363740601808,41.89316538689604,0 12.48998754320471,41.88937085631331,0 12.4923443605437,41.88812300048416,0 12.49596709331193,41.8919279906271,0 12.49363740601808,41.89316538689604,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>FUR VIII-5</name>
+				<description><![CDATA[<a href="http://formaurbis.stanford.edu/slab.php?slab=34">Stanford #: VIII-5</a>]]></description>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								12.49002995629268,41.88930644092461,0 12.48640024674008,41.88554561346162,0 12.48875734899154,41.88437112513435,0 12.49233752261704,41.88809418327822,0 12.49002995629268,41.88930644092461,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>FUR Stanford Slab V-13</name>
+				<description><![CDATA[<a href="http://formaurbis.stanford.edu/slab.php?slab=82">FUR Stanford Slab V-13</a>]]></description>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								12.48036123940244,41.88995324887461,0 12.47563191877744,41.89246159146317,0 12.47427979525385,41.89106209807154,0 12.47905599278261,41.88852744688177,0 12.48036123940244,41.88995324887461,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
 	</Folder>
 </Document>
 </kml>
